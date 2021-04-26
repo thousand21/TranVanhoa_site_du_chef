@@ -3,6 +3,7 @@
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 .fa,
 .fas,
 .far,
@@ -16046,12 +16047,24 @@ h3 {
     border-color: #dee2e6;
   }
 }
-h1 {
-  font-size: 500px;
+.carousel-item img {
+  width: 100%;
+  filter: brightness(20%);
+  height: 100vh;
 }
 
-a:hover {
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+li:hover {
   background-color: #c42d40;
+}
+
+.courgette {
+  font-family: "Courgette", cursive;
 }
 
 /*# sourceMappingURL=app.css.map */
