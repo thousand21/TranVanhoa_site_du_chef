@@ -16059,12 +16059,311 @@ h3 {
   border-radius: 50%;
 }
 
-li:hover {
+.bordure img {
+  height: 15px;
+  background-repeat: repeat-x;
+  background-image: url(../images/bottom_decoration_img.png);
+}
+
+button {
+  margin-bottom: 10%;
+}
+button a {
+  text-decoration: none;
+}
+
+.h1courgette {
+  font-size: 8vw;
+  width: 200%;
+}
+
+.nav-item:hover {
   background-color: #c42d40;
 }
 
+nav {
+  border: solid;
+  /* filter: brightness(20%); */
+  position: fixed;
+  top: 0px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+}
+
+.navbar-nav {
+  width: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 445px) {
+  .nav-link {
+    font-size: 5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1084px) {
+  .nav-link {
+    font-size: 10px;
+  }
+}
+section {
+  background-color: white;
+  width: 100%;
+}
+section img {
+  width: 100%;
+}
+section p {
+  width: 100%;
+  color: black;
+}
+
+i {
+  font-size: 50px;
+}
+
+/* i:hover{
+    color: rgb(196, 45,64);
+
+} */
+.ulli {
+  width: 60px;
+  padding: 20px;
+  padding-right: 160px;
+  font-size: 30px;
+  border-right: gray solid 0.5px;
+  border-bottom: gray solid 0.5px;
+}
+
+.ulli:hover {
+  border-right: solid #c42d40;
+}
+.ulli:hover i {
+  color: #c42d40;
+}
+
+#home {
+  padding-bottom: 20px;
+}
+#home img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+#home div h3 {
+  font-size: 15px;
+}
+#home div p {
+  font-size: 15px;
+}
+
+#menu1 {
+  padding-bottom: 10px;
+}
+#menu1 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+#menu1 div h3 {
+  font-size: 15px;
+}
+#menu1 div p {
+  font-size: 15px;
+}
+
+#menu2 {
+  padding-bottom: 10px;
+}
+#menu2 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+#menu2 div h3 {
+  font-size: 15px;
+}
+#menu2 div p {
+  font-size: 15px;
+}
+
+#menu3 {
+  padding-bottom: 10px;
+}
+#menu3 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+#menu3 div h3 {
+  font-size: 15px;
+}
+#menu3 div p {
+  font-size: 15px;
+}
+
+.prix {
+  background-color: #cfcdcd;
+  color: red;
+  font-size: large;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.section2 {
+  background-color: black;
+  height: 700px;
+}
+
+.menuchef {
+  margin-top: 100px;
+}
+.menuchef img {
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  border-bottom: gray solid 0.5px;
+}
+
+.book {
+  width: 100%;
+}
+.book img {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .rangee {
+    visibility: hidden;
+  }
+}
+.boxform {
+  width: 70%;
+  background-image: url(../images/book_table_bg.jpg);
+  background-size: cover;
+}
+.boxform p {
+  color: white;
+}
+
+.num {
+  font-size: 40px;
+}
+
+.imgblog {
+  border: solid #dbdbdb 5px;
+  border-radius: 30px;
+}
+
+.pblog {
+  z-index: 2;
+  font-size: 20px;
+  margin-bottom: 15px;
+  max-width: max-content;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.section3 {
+  background-image: url(../images/testimonials_background.jpg);
+  background-size: cover;
+}
+
+.imgtesti {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: solid white 5px;
+}
+
+.txtblog {
+  padding-top: 15px;
+  border: solid #c3c3c3 2px;
+  border-radius: 15px;
+}
+
+.imgblog2 {
+  position: relative;
+  max-width: max-content;
+}
+.imgblog2 .pblog {
+  position: absolute;
+  bottom: 0px;
+  border: solid;
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 679px) {
+  .imgtesti {
+    width: 0px;
+    height: 0px;
+    /* border-radius: 100%;
+    border: solid white 5px; */
+  }
+
+  .pblog {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 680px) and (max-width: 991px) {
+  .pblog {
+    font-size: 15px;
+  }
+}
+.rouge {
+  width: 30%;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .rouge {
+    width: 30%;
+    border-radius: 15px;
+  }
+}
 .courgette {
   font-family: "Courgette", cursive;
+}
+
+body {
+  background-image: url(../images/main_bg.jpg);
+}
+
+.footerpack {
+  width: 30%;
+}
+.footerpack h2 {
+  font-size: 25px;
+}
+
+.ptag {
+  background-color: #c42d40;
+  padding: 5px;
+  border: solid 0.5px;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footerrouge {
+  height: 70px;
+  background-color: #c42d40;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .footericon {
+    flex-direction: column;
+  }
+
+  .tag {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

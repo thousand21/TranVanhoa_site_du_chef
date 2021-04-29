@@ -1,0 +1,30 @@
+.footerpack{
+    width: 30%;
+    h2{
+        font-size: 25px;
+    }
+}
+.ptag{
+    background-color: rgb(196, 45,64);
+    padding: 5px;
+    border: solid 0.5px;
+    border-radius: 15px;
+
+
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footerrouge{
+    height: 70px;
+    background-color: rgb(196, 45,64);
+}
+@media (min-width:320px) and (max-width:720px){
+    .footericon{
+        flex-direction: column;
+    }
+    .tag{
+        flex-direction: column;
+    }
+}

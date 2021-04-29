@@ -1,0 +1,74 @@
+.boxform{
+    width: 70%;
+    background-image: url(../images/book_table_bg.jpg);
+    background-size: cover;
+    p{
+        color: white;
+    }
+}
+.num{
+    font-size: 40px;
+}
+.imgblog{
+    border: solid rgb(219, 219, 219) 5px;
+    border-radius: 30px;
+    
+    
+}
+.pblog{
+    
+    z-index: 2;
+    font-size: 20px;
+    margin-bottom: 15px;
+    max-width: max-content;
+    border-radius: 30px;
+    padding: 15px;
+}
+.section3{
+    background-image: url(../images/testimonials_background.jpg);
+    background-size: cover;
+}
+.imgtesti{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: solid white 5px;
+}
+.txtblog{
+    padding-top: 15px;
+    border: solid rgb(195, 195, 195) 2px;
+    border-radius: 15px;
+}
+.imgblog2{
+    position: relative;
+    max-width: max-content;
+    .pblog{
+        position: absolute;
+        bottom: 0px;
+        border: solid;
+        margin-top: 20px;
+        
+    }
+    
+}
+@media (min-width:320px) and (max-width:679px){
+    .imgtesti{
+        width: 0px;
+        height: 0px;
+        
+        /* border-radius: 100%;
+        border: solid white 5px; */
+    }
+    .pblog{
+            
+        font-size: 2vw;
+    }
+}
+
+@media (min-width:680px) and (max-width:991px){
+    .pblog{
+        
+        font-size: 15px;
+    }
+}
+

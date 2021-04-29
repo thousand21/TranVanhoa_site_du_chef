@@ -5,12 +5,9 @@
         height: 100vh;
     }
 }
-.carousel-caption{
-    @include media-breakpoint-down(md){
 
-    }
 
-}
+
 .carousel-indicators{
     li{
         width: 15px;
@@ -18,3 +15,24 @@
         border-radius: 50%;
     }
 }
+.bordure{
+    img{
+        height: 15px;
+        background-repeat: repeat-x;
+        background-image: url(../images/bottom_decoration_img.png);
+    }
+}
+button{
+    margin-bottom: 10%;
+    a{
+        text-decoration: none;
+    }
+}
+.h1courgette{
+    font-size: 8vw;
+    width: 200%;
+    
+}
+
+ 
+
